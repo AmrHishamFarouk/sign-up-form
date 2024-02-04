@@ -4,5 +4,68 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 body{
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto Mono', monospace;
+    display: flex;
+}
+form{
+    box-shadow: 1px 1px black ;
+}
+.part1{
+    min-height: 100vh;
+    width: 40vw;
+    background-image: url(httpsunsplash.comphotosgreen-leaf-plant-in-close-up-photography-25xggax4bSA.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    background-color: aqua;
+    max-height: 15vh;
+    margin-top: 20vh;
+    display: flex;
+    color: white;
+}
+.titleplace{
+    display: flex;
+    justify-content: center;
+    max-width: inherit;
+    padding: 0;
+}
+p{
+    font-family: logofont;
+    align-self: center;
+    font-size: 4rem;
+}
+button{
+    background-color: greenyellow;
+    color: white;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: .5em;
+}
+a{
+    text-decoration: none;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first ,.second , .third{
+    margin: 3em 2em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+
+}
+.part{
+    display: flex;
+}
+input{
+    border-radius: 1em;
 }
