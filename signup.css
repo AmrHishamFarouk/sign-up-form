@@ -38,6 +38,7 @@ p{
     font-family: logofont;
     align-self: center;
     font-size: 4rem;
+    margin: 1rem;
 }
 button{
     background-color: greenyellow;
@@ -53,19 +54,28 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
+    margin: 0;
 }
 .first ,.second , .third{
-    margin: 3em 2em;
+    width: 100%;
 }
 form{
+    margin: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     border: none;
-
+    width: 80%;
 }
 .part{
     display: flex;
 }
 input{
-    border-radius: 1em;
+    border-radius: 0.5em;
+    width: 17em;
+    height: 1.7em;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
 }
