@@ -10,7 +10,10 @@ body{
     display: flex;
 }
 form{
-    box-shadow: 1px 1px black ;
+    box-sizing:border-box;
+    /* box-shadow: 1px 1px black ; */
+    margin: 0;
+    width: 100%;
 }
 .part1{
     min-height: 100vh;
@@ -22,7 +25,7 @@ form{
     flex-direction: column;
 }
 .title{
-    background-color: aqua;
+    background-color: rgba(0,0,0,0.5);
     max-height: 15vh;
     margin-top: 20vh;
     display: flex;
@@ -41,13 +44,14 @@ p{
     margin: 1rem;
 }
 button{
-    background-color: greenyellow;
+    background-color: #596D48;
     color: white;
     padding: 0.5em 2em;
     border: none;
     border-radius: .5em;
 }
 a{
+    color: #596D48;
     text-decoration: none;
 }
 .part2{
@@ -59,6 +63,10 @@ a{
 }
 .first ,.second , .third{
     width: 100%;
+}
+.second{
+    box-shadow: 5px 5px 5px 5px gray;
+
 }
 form{
     margin: 1rem;
@@ -72,8 +80,14 @@ form{
 }
 input{
     border-radius: 0.5em;
+    border: 1px solid #E5E7EB;
     width: 17em;
     height: 1.7em;
+}
+input:focus {
+    transition: border-color 0.3s ease;
+    border-color:  blue;
+    outline: none;
 }
 ul{
     text-decoration: none;
